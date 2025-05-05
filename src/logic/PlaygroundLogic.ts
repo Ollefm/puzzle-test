@@ -4,7 +4,7 @@
  * @param size - size of the array
  * @returns the original array
  */
-export function createOriginalPlayground(size: number) : number[]{
+export function createOriginalGridPlayground(size: number) : number[]{
     const og_array: number[] = [size];
       for (let i = 0; i < size - 1; i++) {
         og_array[i] = i + 1
